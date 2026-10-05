@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Đoàn Gia Bảo - Gương mặt trẻ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 450px;
+            width: 100%;
+            padding: 40px 30px;
+            text-align: center;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            margin: 0 auto 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: white;
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #eef2ff;
+            color: #5a67d8;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .info {
+            text-align: left;
+            margin: 25px 0;
+        }
+
+        .info p {
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 16px;
+            color: #4a5568;
+        }
+
+        .info p:last-child { border-bottom: none; }
+        .info strong { color: #2d3748; min-width: 100px; display: inline-block; }
+
+        .desc {
+            margin-top: 20px;
+            line-height: 1.8;
+            color: #4a5568;
+            font-size: 15px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #a0aec0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="avatar">G</div>
+        <h1>Nguyễn Đoàn Gia Bảo</h1>
+        <span class="tag">🌟 Gương mặt trẻ nổi bật</span>
+
+        <div class="info">
+            <p><strong>Năm sinh:</strong> 2013</p>
+            <p><strong>Quê quán:</strong> Đắk Nông</p>
+            <p><strong>Lĩnh vực hoạt động:</strong> Dịch vụ mạng xã hội</p>
+        </div>
+
+        <p class="desc">
+            Nguyễn Đoàn Gia Bảo là một gương mặt trẻ tuổi đầy triển vọng, sinh năm 2013 tại tỉnh Đắk Nông.
+            Hiện đang được nhiều người biết đến với những hoạt động tích cực và đóng góp trong lĩnh vực
+            <strong>dịch vụ mạng xã hội</strong>, mang lại những giá trị tích cực cho cộng đồng trực tuyến.
+        </p>
+
+        <div class="footer">
+            © 2026 - Trang giới thiệu Nguyễn Đoàn Gia Bảo
+        </div>
+    </div>
+</body>
+</html>
